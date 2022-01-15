@@ -1,0 +1,12 @@
+pip >= 21.3.1
+wheel >= 0.37.1
+Pillow >= 8.4.0
+prompt-toolkit >= 3.0.24
+
+pytest >= 6.2.5
+
+# not yet used
+PyYAML >= 6.0
+
+# install development version already
+--editable .
