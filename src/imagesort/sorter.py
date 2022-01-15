@@ -15,8 +15,10 @@ class ImageSorter:
         pass  # Sort all files
 
     def count(self):
-        self._walk()
-        return 5  # TODO: Number of files
+        count = 0
+        for root, dirs, files in os.walk(self._src, followlinks=self._follow_links):
+            count += len(list(filter(self._filter, files)))
+        return count
 
     def _walk(self):
         start_len = len(self._src)
