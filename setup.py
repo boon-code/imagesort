@@ -24,6 +24,7 @@ setup(
     },
     install_requires=[
         'Pillow >= 8.4.0',
+        'exif >= 1.2.2',
         'click >= 7.1.2',
         'prompt-toolkit >= 3.0.24'
     ]

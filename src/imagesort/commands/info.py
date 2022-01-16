@@ -1,6 +1,5 @@
 import click
-from ..exif import ExifTagsExtractor
-from ..util import UnsupportedImageFormat
+from ..exif import ExifTagsExtractor, UnsupportedImageFormat
 
 
 @click.command(name="info")
