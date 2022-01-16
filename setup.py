@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 __author__ = "Manuel Huber"
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 setup(
     name='imagesort',
